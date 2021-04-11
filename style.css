@@ -55,9 +55,10 @@
 }
 
 /* Desktop */
-html{
+html {
   scroll-behavior: smooth;
 }
+
 .schermata {
   height: 100vh;
 }
@@ -102,6 +103,19 @@ html{
   text-align: center;
 }
 
+.bluu {
+  background-color: #2B4162;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.indietro {
+  color: white;
+}
+
 .aiuto {
   vertical-align: middle;
   height: 5vh;
@@ -141,12 +155,14 @@ html{
   font-size: 3.7vh;
   font-family: ibm-light;
 }
-#avviso{
+
+#avviso {
   font-family: ibm-light;
   text-align: center;
   color: #2B4162;
   padding-top: 1vh;
 }
+
 #testo {
   margin-top: 10vh;
   padding-left: 4vh;
@@ -160,10 +176,17 @@ html{
 .freccia {
   margin-top: 1vh;
 }
+
 @keyframes mymove {
-  from {top: 0px;}
-  to {top: 15px;}
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: 15px;
+  }
 }
+
 #svg2 {
   width: 5vh;
   margin-top: 2vh;
@@ -195,8 +218,6 @@ html{
   margin-top: 1vh;
   color: #2B4162;
 }
-
-
 
 .nome:hover {
   color: #7AC191;
@@ -231,17 +252,21 @@ html{
   color: white;
   padding: 4px;
   border-radius: 4px;
-  font-size:1.5vh;
+  font-size: 1.5vh;
 }
 
 #descrizione {
   font-family: carto-mono-medium;
-  color:#2B4162;
+  color: #2B4162;
   font-size: 2vh;
   line-height: 3vh;
 }
 
 #cambio {
+  color: #7AC191;
+}
+
+#cambio2 {
   color: #7AC191;
 }
 
@@ -263,6 +288,7 @@ html{
 .linee2 {
   border-bottom: 1px solid #2B4162;
   padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .linee3 {
@@ -272,6 +298,13 @@ html{
 
 .linee4 {
   padding-top: 2vh;
+}
+
+.linee6 {
+  border-right: 1px solid #2B4162;
+  border-bottom: 1px solid #2B4162;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 #partecipa {
@@ -436,6 +469,10 @@ a:hover, a:focus {
   font-size: 3vh;
 }
 
+#tastomob {
+  display: none;
+}
+
 /* iphone */
 @media only screen and (max-width: 414px) {
   .svg {
@@ -443,11 +480,7 @@ a:hover, a:focus {
     justify-content: space-between;
     padding: 2vh;
   }
-  .nome:hover {
-    color: #7AC191;
-    border-bottom: 1px solid #2B4162;
-    cursor: pointer;
-  }
+
   .prev {
     width: 20vh;
   }
@@ -587,6 +620,7 @@ a:hover, a:focus {
   .linee2 {
     border-bottom: 3px solid #2B4162;
     padding-top: 2vh;
+    padding-bottom: 2vh;
   }
 
   .linee3 {
@@ -594,12 +628,14 @@ a:hover, a:focus {
     border-bottom: 3px solid #2B4162;
     border-right: 0px solid #2B4162;
   }
+
   .nome {
     border-bottom: 1px solid;
     font-family: carto-mono-heavy;
     margin-top: 1vh;
     color: #2B4162;
   }
+
   .linee4 {
     padding-top: 2vh;
   }
@@ -677,6 +713,47 @@ a:hover, a:focus {
 
   .fine {
     font-size: 2vh;
+  }
+
+  .nome:hover {
+    color: #7AC191;
+    border-bottom: 1px solid #2B4162;
+    cursor: pointer;
+  }
+
+  #cambio2 {
+    color: #7AC191;
+  }
+
+  #headingOne {
+    display: none;
+  }
+
+  #headingTwo {
+    display: none;
+  }
+
+  #headingThree {
+    display: none;
+  }
+
+  #headingFour {
+    display: none;
+  }
+
+  #headingFive {
+    display: none;
+  }
+
+  #tastomob {
+    display: block;
+    font-family: carto-mono;
+    color: #2B4162;
+    line-height: 2.3vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 2px solid #2B4162;
+    padding-bottom: 10px;
   }
 }
 
