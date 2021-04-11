@@ -1,0 +1,684 @@
+@font-face {
+  font-family: "ibm-light";
+  src: url(fonts/ibmplexsans-light-webfont.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "ibm-serif";
+  src: url(fonts/ibmplexserif-bold-webfont.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "carto-mono";
+  src: url(fonts/cartograph-mono-cf-demi-bold.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "ibm-bold";
+  src: url(fonts/IBM-Plex-Sans_Bold.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "ibm-sans-medium";
+  src: url(fonts/IBM-Plex-Sans_Medium.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "carto-mono-heavy";
+  src: url(fonts/CartographMonoCFHeavy.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "carto-mono-medium";
+  src: url(fonts/CartographMonoCF-Medium.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Desktop */
+html{
+  scroll-behavior: smooth;
+}
+.schermata {
+  height: 100vh;
+}
+
+.loghi {
+  height: 20vh;
+  background-color: #7AC191;
+}
+
+.svg {
+  display: flex;
+  justify-content: space-between;
+  padding: 6vh;
+}
+
+.info {
+  background-color: #7AC191;
+  height: 14vh;
+  color: white;
+  padding-left: 3vh;
+}
+
+.infoo {
+  margin-top: 5vh;
+}
+
+#sopra {
+  font-family: carto-mono;
+  border-bottom: 3px solid white;
+  padding-bottom: 4px;
+}
+
+#sotto {
+  font-family: ibm-serif;
+  font-size: 2.5vh;
+  line-height: 5vh;
+}
+
+.blu {
+  background-color: #2B4162;
+  color: white;
+  text-align: center;
+}
+
+.aiuto {
+  vertical-align: middle;
+  height: 5vh;
+}
+
+#sopr {
+  margin: auto;
+  line-height: 5vh;
+  font-family: ibm-serif;
+}
+
+.fascia {
+  background-color: #7AC191;
+  color: white;
+  text-align: center;
+  margin-top: 5vh;
+  padding-left: 3vh;
+}
+
+.fascia3 {
+  margin-top: 1.8vh;
+  font-size: 4vh;
+  color: white;
+  font-family: ibm-serif;
+}
+
+#soprmb {
+  display: none;
+}
+
+#primopar {
+  font-size: 3.7vh;
+  font-family: ibm-bold;
+}
+
+#secondopar {
+  font-size: 3.7vh;
+  font-family: ibm-light;
+}
+#avviso{
+  font-family: ibm-light;
+  text-align: center;
+  color: #2B4162;
+  padding-top: 1vh;
+}
+#testo {
+  margin-top: 10vh;
+  padding-left: 4vh;
+}
+
+#imm {
+  margin-top: 8vh;
+  padding-right: 4vh;
+}
+
+.freccia {
+  margin-top: 1vh;
+}
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 15px;}
+}
+#svg2 {
+  width: 5vh;
+  margin-top: 2vh;
+  position: relative;
+  animation: mymove 1s infinite alternate;
+}
+
+.data {
+  padding-top: 15vh;
+}
+
+.date {
+  border-bottom: 3px solid #7AC191;
+}
+
+#data {
+  font-family: carto-mono-heavy;
+  color: #7AC191;
+  font-size: 4vh;
+}
+
+.intestaz {
+  font-family: carto-mono;
+}
+
+.nome {
+  border-bottom: 3px solid;
+  font-family: carto-mono-heavy;
+  margin-top: 1vh;
+  color: #2B4162;
+}
+
+
+
+.nome:hover {
+  color: #7AC191;
+  border-bottom: 3px solid #2B4162;
+  cursor: pointer;
+}
+
+.orario {
+  font-family: ibm-bold;
+  font-size: 2.2vh;
+  color: #7AC191;
+}
+
+.orario2 {
+  font-family: ibm-sans-medium;
+  float: right;
+}
+
+.progetto {
+  font-family: ibm-serif;
+  font-size: 2.5vh;
+}
+
+.sottotitolo {
+  font-family: ibm-serif;
+  font-size: 1.4vh;
+}
+
+#anno {
+  font-family: carto-mono-medium;
+  background-color: #7AC191;
+  color: white;
+  padding: 4px;
+  border-radius: 4px;
+  font-size:1.5vh;
+}
+
+#descrizione {
+  font-family: carto-mono-medium;
+  color:#2B4162;
+  font-size: 2vh;
+  line-height: 3vh;
+}
+
+#cambio {
+  color: #7AC191;
+}
+
+#cambio:hover {
+  color: #2B4162;
+  cursor: pointer;
+}
+
+.elenco {
+  margin-top: 5vh;
+}
+
+.linee {
+  border-right: 1px solid #2B4162;
+  border-bottom: 1px solid #2B4162;
+  padding-top: 2vh;
+}
+
+.linee2 {
+  border-bottom: 1px solid #2B4162;
+  padding-top: 2vh;
+}
+
+.linee3 {
+  padding-top: 2vh;
+  border-right: 1px solid #2B4162;
+}
+
+.linee4 {
+  padding-top: 2vh;
+}
+
+#partecipa {
+  font-family: carto-mono-heavy;
+  text-align: right;
+  color: white;
+  font-size: 3vh;
+  margin-top: 2vh;
+  cursor: pointer;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.partecip {
+  margin-top: 5vh;
+  text-align: right;
+}
+
+.piede1 {
+  background-color: #7AC191;
+}
+
+.piede11 {
+  color: white;
+  margin: auto;
+  line-height: 5vh;
+  margin-top: 1.8vh;
+  font-family: ibm-serif;
+  text-align: center;
+  font-size: 3.5vh;
+}
+
+.piede2 {
+  background-color: #2B4162;
+  color: white;
+  height: 15vh;
+  padding-top: 2vh;
+}
+
+#contat1 {
+  text-align: left;
+  font-family: ibm-light;
+  font-size: 2.5vh;
+  line-height: 2.5vh;
+}
+
+#follow {
+  font-family: carto-mono-medium;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+}
+
+#contact {
+  font-family: carto-mono-medium;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+}
+
+#contat2 {
+  text-align: left;
+  padding-left: 7vh;
+}
+
+#contat3 {
+  text-align: left;
+  padding-left: 7vh;
+}
+
+a:hover, a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+#accordion .panel {
+  border: 0px none;
+  box-shadow: none;
+}
+
+#accordion .panel-heading {
+  padding: 0;
+  background: #fff;
+}
+
+#accordion .panel-title a {
+  display: block;
+  position: relative;
+  background: transparent;
+  color: #2B4162;
+  font-size: 3vh;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-bottom: 2px solid #2B4162;
+  transition: all 0.10s linear 0s;
+}
+
+#accordion .panel-title a.collapsed {
+  color: ##2B4162;
+  border-bottom: 1px solid ##2B4162;
+  margin: 0;
+}
+
+#accordion .panel-title a i {
+  color: #de4d4e;
+  position: absolute;
+  top: 14px;
+  left: 25px;
+}
+
+/* #accordion .panel-title a:before,
+#accordion .panel-title a.collapsed:before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 36px;
+  border: 7px solid transparent;
+  border-top: 7px solid #2B4162;
+} */
+#accordion .panel-title a.collapsed:before {
+  content: "";
+  border: 0px none;
+}
+
+#accordion .panel-title a.collapsed:hover {
+  color: #6a6060;
+}
+
+#accordion .panel-title a:after,
+#accordion .panel-title a.collapsed:after {
+  content: "\f106";
+  font-family: FontAwesome;
+  color: #2B4162;
+  font-size: 25px;
+  line-height: 53px;
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+
+#accordion .panel-title a.collapsed:after {
+  content: "\f107";
+  color: #2B4162;
+}
+
+#accordion .panel-body {
+  border-top: 0 none;
+  color: #2B4162;
+}
+
+.ora {
+  float: right;
+}
+
+.partecipmob {
+  display: none;
+}
+
+.fine {
+  font-size: 3vh;
+}
+
+/* iphone */
+@media only screen and (max-width: 414px) {
+  .svg {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh;
+  }
+  .nome:hover {
+    color: #7AC191;
+    border-bottom: 1px solid #2B4162;
+    cursor: pointer;
+  }
+  .prev {
+    width: 20vh;
+  }
+
+  .LA {
+    width: 10vh
+  }
+
+  .loghi {
+    height: 17vh;
+    background-color: #7AC191;
+  }
+
+  .info {
+    background-color: #7AC191;
+    height: 30vh;
+    color: white;
+    padding-left: 1vh;
+    line-height: 1vh;
+  }
+
+  .fascia {
+    background-color: #7AC191;
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+  }
+
+  .intestaz {
+    font-family: carto-mono;
+    font-size: 2vh !important;
+    color: #2B4162;
+  }
+
+  .fascia3 {
+    margin-top: 2vh;
+    font-size: 2.3vh;
+    line-height: 3vh;
+    color: white;
+    font-family: ibm-serif;
+  }
+
+  .infoo {
+    margin-top: 0vh;
+  }
+
+  #sopra {
+    font-family: carto-mono;
+    border-bottom: 1.5px solid white;
+    padding-bottom: 2px;
+    font-size: 1.8vh;
+  }
+
+  #sotto {
+    font-family: ibm-serif;
+    font-size: 2.5vh;
+    line-height: 6vh;
+  }
+
+  .aiuto {
+    vertical-align: middle;
+    height: 5vh;
+  }
+
+  #sopr {
+    margin: auto;
+    line-height: 2.3vh;
+    font-family: ibm-serif;
+    font-size: 1.6vh;
+    display: none;
+  }
+
+  #soprmb {
+    display: inline;
+    margin: auto;
+    line-height: 5vh;
+    font-family: ibm-serif;
+    font-size: 2vh;
+  }
+
+  #primopar {
+    font-size: 2.5vh;
+    font-family: ibm-bold;
+  }
+
+  #secondopar {
+    font-size: 2.5vh;
+    font-family: ibm-light;
+  }
+
+  #testo {
+    margin-top: 2vh;
+    padding-left: 4vh;
+  }
+
+  #imm {
+    margin-top: 1vh;
+    padding-right: 4vh;
+  }
+
+  #svg2 {
+    display: none;
+  }
+
+  .data {
+    padding-top: 5vh;
+  }
+
+  .date {
+    border-bottom: 3px solid #7AC191;
+    text-align: left;
+  }
+
+  #data {
+    font-family: carto-mono-heavy;
+    color: #7AC191;
+    font-size: 3vh;
+    scroll-behavior: smooth;
+  }
+
+  .intestaz {
+    font-family: carto-mono;
+    font-size: 1.7vh;
+    text-align: left;
+  }
+
+  .ora {
+    float: left;
+  }
+
+  .linee {
+    border-right: 0px solid #2B4162;
+    border-bottom: 3px solid #2B4162;
+    padding-top: 2vh;
+  }
+
+  .linee2 {
+    border-bottom: 3px solid #2B4162;
+    padding-top: 2vh;
+  }
+
+  .linee3 {
+    padding-top: 2vh;
+    border-bottom: 3px solid #2B4162;
+    border-right: 0px solid #2B4162;
+  }
+  .nome {
+    border-bottom: 1px solid;
+    font-family: carto-mono-heavy;
+    margin-top: 1vh;
+    color: #2B4162;
+  }
+  .linee4 {
+    padding-top: 2vh;
+  }
+
+  .elenco {
+    padding: 0 !important;
+    margin-top: 5vh;
+  }
+
+  .elencone {
+    padding: 0 !important;
+  }
+
+  #partecipa {
+    display: none;
+  }
+
+  .partecip {
+    display: none;
+  }
+
+  .partecipmob {
+    background-color: #ff4d4d;
+    color: white;
+    font-family: carto-mono-heavy;
+    text-align: center;
+    padding: 5px;
+    display: block;
+  }
+
+  .piede1 {
+    background-color: #7AC191;
+  }
+
+  .piede11 {
+    color: white;
+    margin-top: 1.8vh;
+    line-height: 3vh;
+    font-family: ibm-serif;
+    text-align: center;
+    font-size: 2.2vh;
+  }
+
+  .piede2 {
+    background-color: #2B4162;
+    color: white;
+    height: 30vh;
+    padding-top: 2vh;
+  }
+
+  #contat1 {
+    text-align: left;
+    padding-left: 7vh;
+    font-family: ibm-light;
+    font-size: 2vh;
+    line-height: 2vh;
+  }
+
+  #follow {
+    font-family: carto-mono-medium;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+  }
+
+  #contact {
+    font-family: carto-mono-medium;
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+  }
+
+  #contat2 {
+    text-align: left;
+    padding-left: 7vh;
+  }
+
+  .fine {
+    font-size: 2vh;
+  }
+}
+
+/* ipad */
+@media only screen and (max-width: 768px) {}
